@@ -1,0 +1,20 @@
+.title {
+    font-size: 28px;
+    font-weight: bold;
+
+    &.two {
+        font-size: 24px;
+    }
+
+    &.three {
+        font-size: 20px;
+    }
+
+    &.four {
+        font-size: 16px;
+    }
+}
+
+.paragraph {
+    font-size: 16px;
+}
