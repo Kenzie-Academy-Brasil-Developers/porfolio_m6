@@ -1,6 +1,10 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    justify-content: center;
-    align-items: center;
+    margin: 0 auto;
+    padding: 0 1rem;
+    width: 100%;
+    max-width: 1400px;
+
+    &.sm {
+        max-width: 825px;
+    }
 }

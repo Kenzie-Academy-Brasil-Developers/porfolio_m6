@@ -1,0 +1,84 @@
+.backgroundSection {
+  background: var(--grey-4);
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+  & div:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.boxProfile {
+  margin-top: 80px;
+  display: flex !important;
+  flex-direction: row !important;
+  padding: 0 100px;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+
+  color: var(--grey-2);
+
+  img {
+    width: 50px;
+    border-radius: 100%;
+  }
+}
+
+h1 {
+  margin-top: 38px;
+  color: var(--grey-1);
+
+  & > em {
+    color: var(--color-primary);
+  }
+}
+
+.seeMyProjectsBox {
+  display: flex;
+  flex-direction: column;
+  padding: 0 100px;
+  gap: 1.5625rem;
+}
+
+.buttonBox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  gap: 15px;
+}
+
+.techlogies {
+  margin-top: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 100px;
+  gap: 20px;
+}
+.tech {
+  color: var(--grey-3);
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(1.5);
+  }
+}
+
+aside {
+  display: flex;
+
+  img {
+    width: 400px;
+    height: 31.25rem;
+    object-fit: cover;
+  }
+}

@@ -1,0 +1,32 @@
+header {
+  background: var(--grey-5);
+}
+
+.flexBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 15px 0;
+  gap: 50px;
+
+  span {
+    color: var(--grey-2);
+  }
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+
+  a {
+    color: var(--grey-3);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  a:first-child {
+    color: var(--grey-2);
+  }
+}
