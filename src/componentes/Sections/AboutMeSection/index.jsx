@@ -8,7 +8,7 @@ import userLogo from "../../../assets/user.jpeg";
 import banner from "../../../assets/banner.jpg";
 import styles from "./style.module.scss";
 
-export const AboutMe = () => {
+export const AboutMeSection = () => {
   return (
     <section className={styles.backgroundSection}>
       <div className="container">
@@ -27,7 +27,7 @@ export const AboutMe = () => {
                 all my projects and technologies
               </p>
               <div className={styles.buttonBox}>
-                <button className="btn solid" type="button">See Projects</button>
+                <button className="btn solid title five" type="button">See Projects</button>
                 <button className="btn_git solid" type="button">
                   <FaGithub />
                 </button>
@@ -35,11 +35,11 @@ export const AboutMe = () => {
             </div>
 
             <div className={styles.techlogies}>
-              <FaHtml5 className={styles.tech} size={40} />
-              <FaCss3Alt className={styles.tech} size={40} />
-              <RiJavascriptFill className={styles.tech} size={40} />
-              <DiNodejs className={styles.tech} size={100} />
-              <FaReact className={styles.tech} size={40} />
+              <FaHtml5 className={styles.tech}  />
+              <FaCss3Alt className={styles.tech}  />
+              <RiJavascriptFill className={styles.tech}  />
+              <DiNodejs className={`${styles.tech} ${styles.node}`} />
+              <FaReact className={styles.tech}  />
             </div>
           </div>
           <aside>

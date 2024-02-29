@@ -2,7 +2,7 @@ import { IoIosMailOpen } from "react-icons/io";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 
-export const Contacts = () => {
+export const ContactSection = () => {
   return (
     <section>
       <h2>

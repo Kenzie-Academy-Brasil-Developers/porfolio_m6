@@ -5,7 +5,6 @@
   gap: 8px;
 
   font-family: var(--font-primary);
-  font-size: 0.9375rem;
   font-weight: 400;
 
   transition: 0.4s;
@@ -13,8 +12,8 @@
 
 .btn {
   @extend %btn_default;
-  padding: 15px;
-  height: 40px;
+  padding: 0.9375rem;
+  height: 2.5rem;
   border: 1px solid;
   border-radius: 8px;
 

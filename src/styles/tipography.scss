@@ -14,11 +14,23 @@
     &.four {
         font-size: 16px;
     }
+
+    &.five {
+        font-size: clamp(0.625rem, 5vw, 0.875rem);
+    }
+
+    &.white {
+        color: var(--grey-1);
+    }
 }
 
 .paragraph {
     font-size: 14px;
     font-family: var(--font-primary);
+
+    &.sm {
+        font-size: 12px;
+    }
 
     &.grey {
         color: var(--grey-3);
