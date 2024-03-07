@@ -1,0 +1,52 @@
+.btnMenu {
+  display: inline-flex;
+  color: var(--grey-2);
+  padding: 10px;
+  border: 1px solid var(--grey-4);
+  border-radius: 8px;
+  background: var(--grey-4);
+}
+
+.btnMenuClose {
+    display: inline-flex;
+    color: var(--grey-2);
+    padding: 3px;
+    width: 24px;
+    height: 24px;
+    border: 1px solid var(--grey-4);
+    border-radius: 8px;
+    background: var(--grey-4);
+    margin-bottom: 10px;
+}
+
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+.bm_menu {
+  color: var(--grey-3);
+  background: var(--grey-5);
+  padding: 2.5rem 1.5rem;
+}
+
+.bm_itemList {
+  display: flex !important;
+  flex-direction: column;
+  gap: 20px;
+
+  a {
+    border: 1px solid var(--color-primary);
+    border-radius: 5px;
+    padding: 5px;
+    box-shadow: 3px 5px 6px var(--color-primary);
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+}
+
+@media (width: 700px) {
+
+}

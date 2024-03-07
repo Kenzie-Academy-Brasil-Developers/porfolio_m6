@@ -1,0 +1,102 @@
+footer {
+  background: var(--grey-5);
+  padding: 50px 0px;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 clamp(1.875rem, 5vw, 6.25rem);
+
+  .boxThanks {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+    img {
+      width: 50px;
+      border-radius: 100%;
+    }
+
+    & p:first-child {
+      margin-bottom: 15px;
+    }
+  }
+}
+
+// Template logo social midias
+%singleSocialMidiaTemplate {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 100%;
+  width: 48px;
+  height: 48px;
+}
+
+.boxSocialMidias {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+
+  color: var(--grey-1);
+  cursor: pointer;
+  filter: opacity(0.7);
+}
+
+.singleSocialMidia {
+  &.facebook {
+    @extend %singleSocialMidiaTemplate;
+    background: var(--facebook);
+    
+    &:hover {
+        filter: brightness(1.2);
+    }
+  }
+
+  &.instagram {
+    @extend %singleSocialMidiaTemplate;
+    background: var(--instagram);
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+  }
+
+  &.linkedin {
+    @extend %singleSocialMidiaTemplate;
+    background:  var(--linkedin);
+
+    &:hover {
+        filter: brightness(1.2);
+    }
+  }
+}
+
+@media(max-width: 750px) {
+    .flexBox {
+        flex-direction: column;
+
+        .boxThanks {
+            align-items: center;
+            flex-direction: column;
+
+            gap: 20px;
+        }
+    }
+
+    .thanksText {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        & p:nth-child(2) {
+            margin-bottom: 50px;
+        }
+    }
+}

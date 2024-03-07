@@ -10,7 +10,7 @@ import styles from "./style.module.scss";
 
 export const AboutMeSection = () => {
   return (
-    <section className={styles.backgroundSection}>
+    <section id="home" className={styles.backgroundSection}>
       <div className="container">
         <div className={styles.flexBox}>
           <div>

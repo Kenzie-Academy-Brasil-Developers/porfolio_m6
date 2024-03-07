@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 
 export const ProjectCard = () => {
   return (
-    <li>
+    <li className={styles.projectCard}>
       <h2 className="title two white">Quickstart</h2>
       <p className="paragraph">
         Linguagens: <span>Teste</span>

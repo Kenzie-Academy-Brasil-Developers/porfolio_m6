@@ -1,0 +1,124 @@
+.backgroundSection {
+  background: var(--grey-4);
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  gap: clamp(3.125rem, 5vw, 100px);
+  padding: 0 clamp(1.875rem, 5vw, 6.25rem);
+}
+
+.titleBox {
+  h2 {
+    margin-bottom: 28px;
+    width: 56%;
+  }
+  em {
+    color: var(--color-primary);
+  }
+}
+
+// Template boxes contacts
+%boxSingleContact {
+  display: flex;
+  flex-direction: row;
+
+  gap: 30px;
+}
+
+%boxContactFirstChild {
+  display: flex;
+  align-items: center;
+
+  border-radius: 8px;
+  height: 72px;
+  padding: 0 22px;
+
+  color: var(--grey-1);
+}
+
+%boxContactSecondChild {
+  display: flex;
+  flex-direction: column;
+
+  gap: 15px;
+
+  & span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+
+.contactsBox {
+  margin-top: 140px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+
+  gap: 70px;
+  margin-right: clamp(80px, 5vw, 190px);
+}
+
+.whatsappContact {
+  @extend %boxSingleContact;
+
+  & div:first-child {
+    @extend %boxContactFirstChild;
+    background: linear-gradient(180deg, #50c571 0%, #50cf9a 100%);
+  }
+
+  & div:nth-child(2) {
+    @extend %boxContactSecondChild;
+  }
+}
+
+.emailContact {
+  @extend %boxSingleContact;
+
+  & div:first-child {
+    @extend %boxContactFirstChild;
+    background: linear-gradient(180deg, #bd3b9b 0%, #ee5bc7 100%);
+  }
+
+  & div:nth-child(2) {
+    @extend %boxContactSecondChild;
+  }
+}
+
+.linkedinContact {
+  @extend %boxSingleContact;
+
+  & div:first-child {
+    @extend %boxContactFirstChild;
+    background: linear-gradient(180deg, #4e73ff 0%, #506ccf 100%);
+  }
+
+  & div:nth-child(2) {
+    @extend %boxContactSecondChild;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flexBox {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .titleBox {
+    margin: 0 auto;
+    margin-top: 88px;
+
+    h2 {
+      width: 100%;
+    }
+  }
+
+  .contactsBox {
+    margin-top: 40px;
+    margin-right: 0;
+  }
+}

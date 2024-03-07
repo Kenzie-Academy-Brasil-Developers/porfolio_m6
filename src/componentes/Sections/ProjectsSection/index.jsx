@@ -4,7 +4,7 @@ import styles from "./style.module.scss";
 
 export const ProjectsSection = () => {
   return (
-    <section className={styles.sectionBackground}>
+    <section id="projects" className={styles.sectionBackground}>
       <div className="container">
         <div className={styles.sectionTitle}>
           <h2 className="title three white">My Projects</h2>
@@ -12,7 +12,7 @@ export const ProjectsSection = () => {
             Projects created at <span>Kenzie Academy</span>
           </p>
         </div>
-        <ul>
+        <ul className={styles.projectListContainer}>
           {Projects.map((project) => (
             <ProjectCard key={project.id} />
           ))}

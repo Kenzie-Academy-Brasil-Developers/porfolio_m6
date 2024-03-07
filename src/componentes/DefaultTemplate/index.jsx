@@ -1,8 +1,9 @@
 import { Footer } from "../Footer";
 import { Header } from "../Header";
 import { AboutMeSection } from "../Sections/AboutMeSection";
-import { ContactSection } from "../Sections/ContactsSection";
+import { ContactsSection } from "../Sections/ContactsSection";
 import { ProjectsSection } from "../Sections/ProjectsSection";
+import styles from "./style.module.scss";
 
 
 export const DefaultTemplate = ({ children }) => {
@@ -12,7 +13,7 @@ export const DefaultTemplate = ({ children }) => {
       {children}
       <AboutMeSection />
       <ProjectsSection />
-      <ContactSection />
+      <ContactsSection />
       <Footer />
     </main>
   );
