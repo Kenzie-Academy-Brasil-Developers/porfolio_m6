@@ -20,6 +20,11 @@ export const MenuMobile = () => {
     setMenuOpen(false);
   };
 
+  // const handleMenuItemClick = () => {
+  //   // Fecha o menu ao clicar em um item do menu
+  //   handleMenuClose();
+  // };
+
   return (
     <div className={styles.mobileMenu__container}>
       <button className={styles.btnMenu} onClick={handleMenuOpen}>
@@ -36,16 +41,16 @@ export const MenuMobile = () => {
         onClose={handleMenuClose}
       >
         <div className={styles.bm_itemList}>
-          <a className="menu-item" href="#home">
+          <a className="menu-item" href="#home" onClick={handleMenuClose}>
             Home
           </a>
-          <a className="menu-item" href="#projects">
+          <a className="menu-item" href="#projects" onClick={handleMenuClose}>
             Projects
           </a>
-          <a className="menu-item" href="#contacts">
+          <a className="menu-item" href="#contacts" onClick={handleMenuClose}>
             Contacts
           </a>
-          <a className="menu-item" href="#socialMidias">
+          <a className="menu-item" href="#socialMidias" onClick={handleMenuClose}>
             Midias Sociais
           </a>
         </div>

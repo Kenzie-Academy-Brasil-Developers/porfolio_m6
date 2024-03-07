@@ -14,7 +14,7 @@ export const ProjectsSection = () => {
         </div>
         <ul className={styles.projectListContainer}>
           {Projects.map((project) => (
-            <ProjectCard key={project.id} />
+            <ProjectCard key={project.id} project={project} />
           ))}
         </ul>
       </div>

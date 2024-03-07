@@ -28,9 +28,9 @@ export const AboutMeSection = () => {
               </p>
               <div className={styles.buttonBox}>
                 <button className="btn solid title five" type="button">See Projects</button>
-                <button className="btn_git solid" type="button">
+                <a href="https://github.com/Leo8Goncalves" target="_blank" className="btn_git solid" type="button">
                   <FaGithub />
-                </button>
+                </a>
               </div>
             </div>
 

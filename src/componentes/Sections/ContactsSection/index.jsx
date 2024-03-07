@@ -34,7 +34,7 @@ export const ContactsSection = () => {
                   I'm available for a voice chat, let's about creativity <br />
                   together?
                 </p>
-                <span className="title four white">Call Now</span>
+                <a href="https://api.whatsapp.com/send?phone=5553991758705" target="_blank" className="title four white">Call Now</a>
               </div>
             </div>
 
@@ -49,7 +49,7 @@ export const ContactsSection = () => {
                   Send me an email reporting feedbacks, <br />
                   suggestions and ideas
                 </p>
-                <span className="title four white">Send email now</span>
+                <a href="mailto:leandrolcg18@gmail.com" className="title four white">Send email now</a>
               </div>
             </div>
 
@@ -64,7 +64,7 @@ export const ContactsSection = () => {
                   We can create more constant interactions as well <br />
                   as a sharing network
                 </p>
-                <span className="title four white">Go to LinkedIn Now</span>
+                <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-3b1035239/" target="_blank" className="title four white">Go to LinkedIn Now</a>
               </div>
             </div>
           </div>

@@ -52,6 +52,7 @@
 .btn_git {
   @extend %btn_socialMidias;
   &.solid {
+    color: var(--grey-5);
     background: var(--grey-1);
     border-color: var(--grey-1);
   }

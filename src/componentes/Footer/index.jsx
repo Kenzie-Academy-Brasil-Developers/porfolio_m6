@@ -21,13 +21,13 @@ export const Footer = () => {
 
           <div className={styles.boxSocialMidias}>
             <div className={`${styles.singleSocialMidia} ${styles.facebook}`}>
-              <FaFacebookF size={15} />
+              <a href="https://www.facebook.com/leandro.goncalves.73550" target="_blank"><FaFacebookF size={15} /></a>
             </div>
             <div className={`${styles.singleSocialMidia} ${styles.instagram}`}>
-              <FaInstagram size={15} />
+              <a href="https://www.instagram.com/el.lgoncalves/" target="_blank"><FaInstagram size={15} /></a>
             </div>
             <div className={`${styles.singleSocialMidia} ${styles.linkedin}`}>
-              <FaLinkedinIn size={15} />
+              <a href="https://www.linkedin.com/in/leandro-gon%C3%A7alves-3b1035239/" target="_blank"><FaLinkedinIn size={15} /></a>
             </div>
           </div>
         </div>

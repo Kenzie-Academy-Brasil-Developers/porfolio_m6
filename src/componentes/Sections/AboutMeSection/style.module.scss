@@ -56,6 +56,10 @@
   align-items: center;
 
   gap: 15px;
+
+  & button:first-child{
+    cursor: auto;
+  }
 }
 
 .techlogies {

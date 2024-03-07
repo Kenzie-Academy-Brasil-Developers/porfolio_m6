@@ -5,7 +5,8 @@ export const Projects = [
     language: "JavaScript",
     description: "Descrição do projeto 2.",
     owner: "Leandro",
-    link: "https://m3-entrega-s2-template-nu-kenzie-leandro-goncalves.vercel.app/",
+    vercelLink: "https://m3-entrega-s2-template-nu-kenzie-leandro-goncalves.vercel.app/",
+    codeLink: "https://github.com/Kenzie-Academy-Brasil-Developers/m3-entrega-s2-template-nu-kenzie_Leandro-Goncalves",
   },
   {
     id: "2",
@@ -13,7 +14,8 @@ export const Projects = [
     language: "JavaScript",
     description: "Descrição do projeto 4.",
     owner: "Leandro",
-    link: "https://extra-projeto-food-app-landing-page.vercel.app/",
+    vercelLink: "https://extra-projeto-food-app-landing-page.vercel.app/",
+    codeLink: "https://github.com/Kenzie-Academy-Brasil-Developers/Extra-Projeto-Food-App-Landing-Page",
   },
   {
     id: "3",
@@ -21,7 +23,8 @@ export const Projects = [
     language: "JavaScript",
     description: "Descrição do projeto 3.",
     owner: "Leandro",
-    link: "https://react-entrega-s3-template-hamburgueria-leandro-goncalves.vercel.app/",
+    vercelLink: "https://react-entrega-s3-template-hamburgueria-leandro-goncalves.vercel.app/",
+    codeLink: "https://github.com/Kenzie-Academy-Brasil-Developers/react-entrega-s3-template-hamburgueria-Leandro-Goncalves",
   },
   {
     id: "4",
@@ -29,6 +32,7 @@ export const Projects = [
     language: "JavaScript",
     description: "Descrição do projeto 1.",
     owner: "Leandro",
-    link: "https://m3-react-entrega-kenzie-hub-leandro-goncalves.vercel.app/",
+    vercelLink: "https://m3-react-entrega-kenzie-hub-leandro-goncalves.vercel.app/",
+    codeLink: "https://github.com/Kenzie-Academy-Brasil-Developers/m3-react-entrega-kenzie-hub-Leandro-Goncalves",
   },
 ];
