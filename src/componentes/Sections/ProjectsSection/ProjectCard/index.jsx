@@ -15,7 +15,7 @@ export const ProjectCard = ({ project }) => {
       </p>
       <div className={styles.btnBox}>
         <a href={project.codeLink} target="_blank">
-          <FaGithub size={20}/> Github Code
+          <FaGithub size={20}/> GithubCode
         </a>
         <a href={project.vercelLink} target="_blank">
           <PiArrowBendUpRightFill size={20} /> Aplicação
