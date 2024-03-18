@@ -10,8 +10,7 @@ export const ProjectCard = ({ project }) => {
         Linguagens: <span>{project.language}</span>
       </p>
       <p className="paragraph">
-        Descrição do projeto contendo as informações sobre finalidade da
-        aplicação e como está organizado o repositório...
+       {project.description}
       </p>
       <div className={styles.btnBox}>
         <a href={project.codeLink} target="_blank">
